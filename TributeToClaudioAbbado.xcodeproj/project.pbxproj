@@ -21,6 +21,9 @@
 		002687DB188F544800C23EE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002687BD188F544800C23EE6 /* UIKit.framework */; };
 		002687E3188F544800C23EE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002687E1188F544800C23EE6 /* InfoPlist.strings */; };
 		002687E5188F544800C23EE6 /* TributeToClaudioAbbadoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002687E4188F544800C23EE6 /* TributeToClaudioAbbadoTests.m */; };
+		002687F1188F607100C23EE6 /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002687F0188F607100C23EE6 /* main.jpg */; };
+		002687F3188F621700C23EE6 /* abbado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002687F2188F621700C23EE6 /* abbado.jpg */; };
+		002687F5188F624D00C23EE6 /* history_abbado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002687F4188F624D00C23EE6 /* history_abbado.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		002687E0188F544800C23EE6 /* TributeToClaudioAbbadoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TributeToClaudioAbbadoTests-Info.plist"; sourceTree = "<group>"; };
 		002687E2188F544800C23EE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		002687E4188F544800C23EE6 /* TributeToClaudioAbbadoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TributeToClaudioAbbadoTests.m; sourceTree = "<group>"; };
+		002687F0188F607100C23EE6 /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
+		002687F2188F621700C23EE6 /* abbado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abbado.jpg; sourceTree = "<group>"; };
+		002687F4188F624D00C23EE6 /* history_abbado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = history_abbado.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 		002687C0188F544800C23EE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				002687F4188F624D00C23EE6 /* history_abbado.jpg */,
+				002687F2188F621700C23EE6 /* abbado.jpg */,
+				002687F0188F607100C23EE6 /* main.jpg */,
 				002687C1188F544800C23EE6 /* TributeToClaudioAbbado-Info.plist */,
 				002687C2188F544800C23EE6 /* InfoPlist.strings */,
 				002687C5188F544800C23EE6 /* main.m */,
@@ -228,8 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002687F1188F607100C23EE6 /* main.jpg in Resources */,
 				002687D2188F544800C23EE6 /* Images.xcassets in Resources */,
 				002687C4188F544800C23EE6 /* InfoPlist.strings in Resources */,
+				002687F5188F624D00C23EE6 /* history_abbado.jpg in Resources */,
+				002687F3188F621700C23EE6 /* abbado.jpg in Resources */,
 				002687CD188F544800C23EE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
