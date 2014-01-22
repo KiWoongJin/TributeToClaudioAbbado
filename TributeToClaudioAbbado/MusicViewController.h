@@ -10,4 +10,7 @@
 
 @interface MusicViewController : UIViewController
 
+@property (weak, nonatomic) UIImage *title2;
+@property (weak, nonatomic) NSString *name;
+
 @end

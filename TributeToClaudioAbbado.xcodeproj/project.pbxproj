@@ -29,6 +29,20 @@
 		002687FC188F88EF00C23EE6 /* CareerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002687FB188F88EF00C23EE6 /* CareerViewController.m */; };
 		002687FF188F8E8400C23EE6 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002687FE188F8E8400C23EE6 /* MusicViewController.m */; };
 		00268802188F8E9800C23EE6 /* WorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00268801188F8E9800C23EE6 /* WorkViewController.m */; };
+		0026880A188F94C400C23EE6 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00268803188F94C400C23EE6 /* image1.jpg */; };
+		0026880B188F94C400C23EE6 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00268804188F94C400C23EE6 /* image2.jpg */; };
+		0026880C188F94C400C23EE6 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00268805188F94C400C23EE6 /* image3.jpg */; };
+		0026880D188F94C400C23EE6 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00268806188F94C400C23EE6 /* image4.jpg */; };
+		0026880E188F94C400C23EE6 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00268807188F94C400C23EE6 /* image5.jpg */; };
+		0026880F188F94C400C23EE6 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00268808188F94C400C23EE6 /* image6.jpg */; };
+		00268810188F94C400C23EE6 /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00268809188F94C400C23EE6 /* image7.jpg */; };
+		00268812188FB21400C23EE6 /* Bramhs Hungarian Dances No.5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00268811188FB21400C23EE6 /* Bramhs Hungarian Dances No.5.mp3 */; };
+		00268819188FB2C400C23EE6 /* Beethoven Symphony No.9 3rd.mov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00268813188FB2C400C23EE6 /* Beethoven Symphony No.9 3rd.mov.mp3 */; };
+		0026881A188FB2C400C23EE6 /* Beethoven Symphony No.9 4th.mov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00268814188FB2C400C23EE6 /* Beethoven Symphony No.9 4th.mov.mp3 */; };
+		0026881B188FB2C400C23EE6 /* Brahms Symphony No.4 1st.mov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00268815188FB2C400C23EE6 /* Brahms Symphony No.4 1st.mov.mp3 */; };
+		0026881C188FB2C400C23EE6 /* Mahler Symphony No.1 4th.mov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00268816188FB2C400C23EE6 /* Mahler Symphony No.1 4th.mov.mp3 */; };
+		0026881D188FB2C400C23EE6 /* Mahler Symphony No.7 5th.mov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00268817188FB2C400C23EE6 /* Mahler Symphony No.7 5th.mov.mp3 */; };
+		0026881E188FB2C400C23EE6 /* Mahler Symphony No.9 4th.mov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00268818188FB2C400C23EE6 /* Mahler Symphony No.9 4th.mov.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +86,20 @@
 		002687FE188F8E8400C23EE6 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		00268800188F8E9800C23EE6 /* WorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkViewController.h; sourceTree = "<group>"; };
 		00268801188F8E9800C23EE6 /* WorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkViewController.m; sourceTree = "<group>"; };
+		00268803188F94C400C23EE6 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		00268804188F94C400C23EE6 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		00268805188F94C400C23EE6 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		00268806188F94C400C23EE6 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		00268807188F94C400C23EE6 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		00268808188F94C400C23EE6 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		00268809188F94C400C23EE6 /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		00268811188FB21400C23EE6 /* Bramhs Hungarian Dances No.5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bramhs Hungarian Dances No.5.mp3"; sourceTree = "<group>"; };
+		00268813188FB2C400C23EE6 /* Beethoven Symphony No.9 3rd.mov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beethoven Symphony No.9 3rd.mov.mp3"; sourceTree = "<group>"; };
+		00268814188FB2C400C23EE6 /* Beethoven Symphony No.9 4th.mov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beethoven Symphony No.9 4th.mov.mp3"; sourceTree = "<group>"; };
+		00268815188FB2C400C23EE6 /* Brahms Symphony No.4 1st.mov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brahms Symphony No.4 1st.mov.mp3"; sourceTree = "<group>"; };
+		00268816188FB2C400C23EE6 /* Mahler Symphony No.1 4th.mov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mahler Symphony No.1 4th.mov.mp3"; sourceTree = "<group>"; };
+		00268817188FB2C400C23EE6 /* Mahler Symphony No.7 5th.mov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mahler Symphony No.7 5th.mov.mp3"; sourceTree = "<group>"; };
+		00268818188FB2C400C23EE6 /* Mahler Symphony No.9 4th.mov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mahler Symphony No.9 4th.mov.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +179,20 @@
 		002687C0188F544800C23EE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00268813188FB2C400C23EE6 /* Beethoven Symphony No.9 3rd.mov.mp3 */,
+				00268814188FB2C400C23EE6 /* Beethoven Symphony No.9 4th.mov.mp3 */,
+				00268815188FB2C400C23EE6 /* Brahms Symphony No.4 1st.mov.mp3 */,
+				00268816188FB2C400C23EE6 /* Mahler Symphony No.1 4th.mov.mp3 */,
+				00268817188FB2C400C23EE6 /* Mahler Symphony No.7 5th.mov.mp3 */,
+				00268818188FB2C400C23EE6 /* Mahler Symphony No.9 4th.mov.mp3 */,
+				00268811188FB21400C23EE6 /* Bramhs Hungarian Dances No.5.mp3 */,
+				00268803188F94C400C23EE6 /* image1.jpg */,
+				00268804188F94C400C23EE6 /* image2.jpg */,
+				00268805188F94C400C23EE6 /* image3.jpg */,
+				00268806188F94C400C23EE6 /* image4.jpg */,
+				00268807188F94C400C23EE6 /* image5.jpg */,
+				00268808188F94C400C23EE6 /* image6.jpg */,
+				00268809188F94C400C23EE6 /* image7.jpg */,
 				002687F8188F841B00C23EE6 /* lso.jpg */,
 				002687F6188F821A00C23EE6 /* la scala.jpg */,
 				002687F4188F624D00C23EE6 /* history_abbado.jpg */,
@@ -259,13 +301,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				002687F1188F607100C23EE6 /* main.jpg in Resources */,
+				0026881B188FB2C400C23EE6 /* Brahms Symphony No.4 1st.mov.mp3 in Resources */,
+				0026880E188F94C400C23EE6 /* image5.jpg in Resources */,
+				00268819188FB2C400C23EE6 /* Beethoven Symphony No.9 3rd.mov.mp3 in Resources */,
+				0026880F188F94C400C23EE6 /* image6.jpg in Resources */,
 				002687D2188F544800C23EE6 /* Images.xcassets in Resources */,
+				0026881E188FB2C400C23EE6 /* Mahler Symphony No.9 4th.mov.mp3 in Resources */,
 				002687F7188F821A00C23EE6 /* la scala.jpg in Resources */,
 				002687C4188F544800C23EE6 /* InfoPlist.strings in Resources */,
+				0026881C188FB2C400C23EE6 /* Mahler Symphony No.1 4th.mov.mp3 in Resources */,
 				002687F9188F841B00C23EE6 /* lso.jpg in Resources */,
 				002687F5188F624D00C23EE6 /* history_abbado.jpg in Resources */,
+				0026880C188F94C400C23EE6 /* image3.jpg in Resources */,
+				0026880B188F94C400C23EE6 /* image2.jpg in Resources */,
+				0026880D188F94C400C23EE6 /* image4.jpg in Resources */,
+				0026881D188FB2C400C23EE6 /* Mahler Symphony No.7 5th.mov.mp3 in Resources */,
+				00268810188F94C400C23EE6 /* image7.jpg in Resources */,
+				00268812188FB21400C23EE6 /* Bramhs Hungarian Dances No.5.mp3 in Resources */,
 				002687F3188F621700C23EE6 /* abbado.jpg in Resources */,
 				002687CD188F544800C23EE6 /* Main.storyboard in Resources */,
+				0026881A188FB2C400C23EE6 /* Beethoven Symphony No.9 4th.mov.mp3 in Resources */,
+				0026880A188F94C400C23EE6 /* image1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +554,7 @@
 				002687EA188F544800C23EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		002687EB188F544800C23EE6 /* Build configuration list for PBXNativeTarget "TributeToClaudioAbbadoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +563,7 @@
 				002687ED188F544800C23EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
