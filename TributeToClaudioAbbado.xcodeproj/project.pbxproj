@@ -24,6 +24,11 @@
 		002687F1188F607100C23EE6 /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002687F0188F607100C23EE6 /* main.jpg */; };
 		002687F3188F621700C23EE6 /* abbado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002687F2188F621700C23EE6 /* abbado.jpg */; };
 		002687F5188F624D00C23EE6 /* history_abbado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002687F4188F624D00C23EE6 /* history_abbado.jpg */; };
+		002687F7188F821A00C23EE6 /* la scala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002687F6188F821A00C23EE6 /* la scala.jpg */; };
+		002687F9188F841B00C23EE6 /* lso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002687F8188F841B00C23EE6 /* lso.jpg */; };
+		002687FC188F88EF00C23EE6 /* CareerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002687FB188F88EF00C23EE6 /* CareerViewController.m */; };
+		002687FF188F8E8400C23EE6 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002687FE188F8E8400C23EE6 /* MusicViewController.m */; };
+		00268802188F8E9800C23EE6 /* WorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00268801188F8E9800C23EE6 /* WorkViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,14 @@
 		002687F0188F607100C23EE6 /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
 		002687F2188F621700C23EE6 /* abbado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abbado.jpg; sourceTree = "<group>"; };
 		002687F4188F624D00C23EE6 /* history_abbado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = history_abbado.jpg; sourceTree = "<group>"; };
+		002687F6188F821A00C23EE6 /* la scala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "la scala.jpg"; sourceTree = "<group>"; };
+		002687F8188F841B00C23EE6 /* lso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lso.jpg; sourceTree = "<group>"; };
+		002687FA188F88EF00C23EE6 /* CareerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CareerViewController.h; sourceTree = "<group>"; };
+		002687FB188F88EF00C23EE6 /* CareerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CareerViewController.m; sourceTree = "<group>"; };
+		002687FD188F8E8400C23EE6 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		002687FE188F8E8400C23EE6 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		00268800188F8E9800C23EE6 /* WorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkViewController.h; sourceTree = "<group>"; };
+		00268801188F8E9800C23EE6 /* WorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +138,12 @@
 				002687CF188F544800C23EE6 /* ViewController.m */,
 				002687D1188F544800C23EE6 /* Images.xcassets */,
 				002687C0188F544800C23EE6 /* Supporting Files */,
+				002687FA188F88EF00C23EE6 /* CareerViewController.h */,
+				002687FB188F88EF00C23EE6 /* CareerViewController.m */,
+				002687FD188F8E8400C23EE6 /* MusicViewController.h */,
+				002687FE188F8E8400C23EE6 /* MusicViewController.m */,
+				00268800188F8E9800C23EE6 /* WorkViewController.h */,
+				00268801188F8E9800C23EE6 /* WorkViewController.m */,
 			);
 			path = TributeToClaudioAbbado;
 			sourceTree = "<group>";
@@ -132,6 +151,8 @@
 		002687C0188F544800C23EE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				002687F8188F841B00C23EE6 /* lso.jpg */,
+				002687F6188F821A00C23EE6 /* la scala.jpg */,
 				002687F4188F624D00C23EE6 /* history_abbado.jpg */,
 				002687F2188F621700C23EE6 /* abbado.jpg */,
 				002687F0188F607100C23EE6 /* main.jpg */,
@@ -239,7 +260,9 @@
 			files = (
 				002687F1188F607100C23EE6 /* main.jpg in Resources */,
 				002687D2188F544800C23EE6 /* Images.xcassets in Resources */,
+				002687F7188F821A00C23EE6 /* la scala.jpg in Resources */,
 				002687C4188F544800C23EE6 /* InfoPlist.strings in Resources */,
+				002687F9188F841B00C23EE6 /* lso.jpg in Resources */,
 				002687F5188F624D00C23EE6 /* history_abbado.jpg in Resources */,
 				002687F3188F621700C23EE6 /* abbado.jpg in Resources */,
 				002687CD188F544800C23EE6 /* Main.storyboard in Resources */,
@@ -262,8 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				002687D0188F544800C23EE6 /* ViewController.m in Sources */,
+				002687FF188F8E8400C23EE6 /* MusicViewController.m in Sources */,
 				002687CA188F544800C23EE6 /* AppDelegate.m in Sources */,
+				002687FC188F88EF00C23EE6 /* CareerViewController.m in Sources */,
 				002687C6188F544800C23EE6 /* main.m in Sources */,
+				00268802188F8E9800C23EE6 /* WorkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,10 +38,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Career View Controller - Career-->
         <scene sceneID="RUk-k8-ga0">
             <objects>
-                <viewController id="Dc1-SA-yrp" sceneMemberID="viewController">
+                <viewController id="Dc1-SA-yrp" customClass="CareerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="stZ-nY-rmG"/>
                         <viewControllerLayoutGuide type="bottom" id="mVI-my-WEe"/>
@@ -49,9 +49,27 @@
                     <view key="view" contentMode="scaleToFill" id="AKV-4A-4Sj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abbado's Career" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-vt-gjG">
+                                <rect key="frame" x="20" y="20" width="212" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UXN-Kn-5bt">
+                                <rect key="frame" x="20" y="68" width="280" height="431"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Dc1-SA-yrp" id="i31-Gf-Q3n"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="kMl-D8-YDJ"/>
+                    <tabBarItem key="tabBarItem" title="Career" id="kMl-D8-YDJ"/>
+                    <connections>
+                        <outlet property="scrollView" destination="UXN-Kn-5bt" id="8zD-GV-Iir"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TV9-lH-Og5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,6 +104,33 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g5K-p2-pQL">
+                                <rect key="frame" x="20" y="155" width="280" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Claudio Abbado, the 80-year-old Italian conductor, has died. His death was announced earlier today; he had been in failing health for several months, and had not conducted in public since last summer.
+
+Abbado's relatives released a brief statement saying that the maestro had died "peacefully, surrounded by his family" at 8.30am on Monday. Reports said he had passed away at his home in Bologna.
+
+In Abbado's native Italy, where he had recently been appointed a life senator in the parliament, tributes poured in for a man regarded as one of the country's greatest and most respected cultural figures.
+
+"With his talent, his dedication, the exceptional results he achieved both nationally and internationally during the course of his long career, he was, and will remain, a reference point for the entire country and beyond," said Prime Minister Enrico Letta in a statement. "The musical and cultural world has lost an absolute champion. But we – above all those young people to whom Claudio Abbado gave so much – are left with his testimony and example."
+
+Writing on Twitter, Matteo Renzi, leader of the centre-left Democratic Party, paid tribute to Abbado's "extraordinary greatness".
+
+Abbado was one of the greatest and most acclaimed conductors of our age. Among his many posts were music director of La Scala, Milan's famous opera house, principal conductor of the London Symphony Orchestra from 1979 to 1988, and from 1989 to 2002 he was the chief conductor of the Berlin Philharmonic. There, he expanded the repertoire beyond core classical and romantic works into 20th century music. A passionate advocate of contemporary music, Abbado was particularly close to his fellow Italian, composer Luigi Nono, and recorded and performed works by many of his peers, including Karlheinz Stockhausen, Bruno Maderna, and George Benjamin.
+
+In 2003, he founded the Lucerne Festival Orchestra, a hand-picked ensemble of the best players in the world today, and the Orchestra Mozart.
+
+Michael Haefliger, Executive and Artistic Director of the Lucerne Festival, said today, "We are profoundly grateful to Claudio Abbado for all the magnificent, unforgettable, and indescribable experiences that he gave us in the past 47 years. We hope to remain faithful to his artistic path and credo in the future and thus to create an everlasting remembrance of him and his great art."
+
+"He was one of the most important conductors of his generation and leaves an enormous legacy of operatic and orchestral events," said Roger Wright, Controller, BBC Radio 3 and Director, BBC Proms. "I was privileged to have worked with him at Deutsche Grammophon and will never forget his gentle manner, combined with a steely determination only to offer high quality music making, which delivered so many remarkable performances and recordings."
+
+Abbado's final concert, of the two great unfinished symphonies by Schubert and Bruckner, was broadcast it on Radio 3 on Boxing Day and is available still to listen again in iPlayer. "These performances are a testament to his extraordinary musicianship and the unique qualities of his work with the Lucerne Festival Orchestra," said Wright.  - the Guardian
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -95,10 +140,10 @@
             </objects>
             <point key="canvasLocation" x="1025" y="-579"/>
         </scene>
-        <!--View Controller - Music-->
+        <!--Work View Controller - Music Work-->
         <scene sceneID="zjL-sz-8Si">
             <objects>
-                <viewController id="Dyo-08-I8n" sceneMemberID="viewController">
+                <viewController id="Dyo-08-I8n" customClass="WorkViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kdH-dj-57Z"/>
                         <viewControllerLayoutGuide type="bottom" id="McJ-JI-avX"/>
@@ -106,13 +151,71 @@
                     <view key="view" contentMode="scaleToFill" id="r4D-DT-j5Z">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="lwK-ts-Wjg">
+                                <rect key="frame" x="20" y="20" width="280" height="487"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MUSIC_CELL" id="ZJj-Gz-oOm">
+                                        <rect key="frame" x="0.0" y="86" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZJj-Gz-oOm" id="ZS3-Q2-PrC">
+                                            <rect key="frame" x="0.0" y="0.0" width="247" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbq-ZB-X9j">
+                                                    <rect key="frame" x="0.0" y="1" width="42" height="42"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A00-sZ-X6U">
+                                                    <rect key="frame" x="50" y="11" width="210" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="qsW-Fg-z0L" kind="push" id="mCy-PN-DfO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Dyo-08-I8n" id="cmM-If-aXd"/>
+                                    <outlet property="delegate" destination="Dyo-08-I8n" id="l3K-qv-PFg"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Music" id="AOn-UK-Ydx"/>
+                    <navigationItem key="navigationItem" title="Music Work" id="pLJ-US-oBJ"/>
+                    <connections>
+                        <outlet property="table" destination="lwK-ts-Wjg" id="ieK-mo-RzE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T24-ew-FPJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1025" y="112"/>
+            <point key="canvasLocation" x="1551" y="112"/>
+        </scene>
+        <!--Music View Controller - Music-->
+        <scene sceneID="XUp-On-JlF">
+            <objects>
+                <viewController id="qsW-Fg-z0L" customClass="MusicViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WAf-ZP-B6u"/>
+                        <viewControllerLayoutGuide type="bottom" id="at7-cp-ANg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZOL-PB-sKE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Music" id="1yd-hq-VgE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zH0-Ch-XTr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1929" y="112"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="HaG-oM-Rlh">
@@ -126,13 +229,32 @@
                     </tabBar>
                     <connections>
                         <segue destination="0b1-OI-CTx" kind="relationship" relationship="viewControllers" id="3IT-7b-Atl"/>
-                        <segue destination="Dyo-08-I8n" kind="relationship" relationship="viewControllers" id="dv3-QE-5XP"/>
+                        <segue destination="L7r-Pu-Wyz" kind="relationship" relationship="viewControllers" id="dv3-QE-5XP"/>
                         <segue destination="Dc1-SA-yrp" kind="relationship" relationship="viewControllers" id="CiU-wb-2BM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V6F-UP-ADh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="499" y="112"/>
+        </scene>
+        <!--Navigation Controller - Music-->
+        <scene sceneID="Xse-XU-pAs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="L7r-Pu-Wyz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Music" id="AOn-UK-Ydx"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LOp-YM-ttn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Dyo-08-I8n" kind="relationship" relationship="rootViewController" id="QUB-JY-LJQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MwG-YO-Epu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1025" y="112"/>
         </scene>
     </scenes>
     <resources>
